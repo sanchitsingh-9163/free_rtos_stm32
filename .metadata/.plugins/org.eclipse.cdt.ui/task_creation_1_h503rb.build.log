@@ -1,0 +1,16 @@
+14:28:36 **** Incremental Build of configuration Debug for project task_creation_1_h503rb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/portable/GCC/ARM_CM33" -I../Core/Inc -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/include" -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS" -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h5xx.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/portable/GCC/ARM_CM33" -I../Core/Inc -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/include" -I"E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS" -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h5xx.d" -MT"Core/Src/system_stm32h5xx.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h5xx.o"
+In file included from E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/include/FreeRTOS.h:63,
+                 from ../Core/Src/main.c:24:
+E:/Sanchit/rtos_learning/rtos_workspace/first_project/task_creation_1_h503rb/thirdparty/freeRTOS/include/portable.h:51:14: fatal error: portmacro.h: No such file or directory
+   51 |     #include "portmacro.h"
+      |              ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:28:39 Build Failed. 3 errors, 0 warnings. (took 3s.268ms)
+

@@ -1,0 +1,12 @@
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:553:32:vPortSetupTimerInterrupt	4	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:574:13:prvTaskExitError	16	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:686:17:prvSetupFPU	4	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:710:6:vPortYield	4	static,ignoring_inline_asm
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:722:6:vPortEnterCritical	8	static,ignoring_inline_asm
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:734:6:vPortExitCritical	8	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:746:6:SysTick_Handler	16	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:763:6:vPortSVCHandler_C	24	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:886:19:pxPortInitialiseStack	24	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:1001:12:xPortStartScheduler	8	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:1038:6:vPortEndScheduler	8	static
+../thirdparty/FreeRTOS/portable/GCC/ARM_CM33_NTZ/port.c:1171:12:xPortIsInsideInterrupt	16	static,ignoring_inline_asm

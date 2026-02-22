@@ -1,0 +1,10 @@
+21:02:34 **** Incremental Build of configuration Debug for project uart_transmit_01 ****
+make -j8 all 
+arm-none-eabi-size  uart_transmit_01.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7652	     12	   1788	   9452	   24ec	uart_transmit_01.elf
+Finished building: default.size.stdout
+ 
+
+21:02:34 Build Finished. 0 errors, 0 warnings. (took 897ms)
+
